@@ -40,7 +40,7 @@ Key business concerns include:
 
 
 
-\## Business Questions
+## Business Questions
 
 
 
@@ -48,31 +48,31 @@ This project aims to answer the following business questions:
 
 
 
-1\. How does monthly revenue change over time?
+1. How does monthly revenue change over time?
 
-2\. Which provinces contribute the most to revenue?
+2. Which provinces contribute the most to revenue?
 
-3\. What are the main reasons for order cancellations?
+3. What are the main reasons for order cancellations?
 
-4\. How significant is the cancellation rate compared to total orders?
-
-
-
-\## Tools Used
+4. How significant is the cancellation rate compared to total orders?
 
 
 
-\- SQL: Data extraction
-
-\- Python: Data cleaning and validation
-
-\- Power BI: Dashboard visualization and business reporting
-
-\- GitHub: Project documentation
+## Tools Used
 
 
 
-\## Data Pipeline
+- SQL: Data extraction
+
+- Python: Data cleaning and validation
+
+- Power BI: Dashboard visualization and business reporting
+
+- GitHub: Project documentation
+
+
+
+## Data Pipeline
 
 
 
@@ -80,21 +80,21 @@ The project follows a simple end-to-end data analysis workflow:
 
 
 
-1\. Raw data was stored in `data/raw/`.
+1. Raw data was stored in `data/raw/`.
 
-2\. SQL was used to extract relevant transaction fields.
+2. SQL was used to extract relevant transaction fields.
 
-3\. The extracted dataset was saved in `data/extracted/`.
+3. The extracted dataset was saved in `data/extracted/`.
 
-4\. Python was used to clean and validate the data.
+4. Python was used to clean and validate the data.
 
-5\. The cleaned dataset was saved in `data/processed/`.
+5. The cleaned dataset was saved in `data/processed/`.
 
-6\. Power BI was used to build the final dashboard.
+6. Power BI was used to build the final dashboard.
 
 
 
-\## Key Metrics
+## Key Metrics
 
 
 
@@ -102,27 +102,27 @@ The dashboard focuses on the following business metrics:
 
 
 
-\- Total Revenue
+- Total Revenue
 
-\- Completed Orders
+- Completed Orders
 
-\- Average Order Value
+- Average Order Value
 
-\- Cancellation Rate
+- Cancellation Rate
 
-\- Cancelled Orders
-
-
-
-\## Dashboard Preview
+- Cancelled Orders
 
 
 
-!\[Dashboard Preview](images/dashboard\_preview.png)
+## Dashboard Preview
 
 
 
-\## Dashboard Explanation
+![Dashboard Preview](images/dashboard\_preview.png)
+
+
+
+## Dashboard Explanation
 
 
 
@@ -130,33 +130,33 @@ The Power BI dashboard contains:
 
 
 
-\- KPI cards to summarize overall business performance
+- KPI cards to summarize overall business performance
 
-\- Monthly revenue trend to identify revenue movement over time
+- Monthly revenue trend to identify revenue movement over time
 
-\- Revenue driver analysis to compare completed orders and average order value
+- Revenue driver analysis to compare completed orders and average order value
 
-\- Top provinces by revenue to identify key regional markets
+- Top provinces by revenue to identify key regional markets
 
-\- Top cancellation reasons to understand potential revenue leakage
-
-
-
-\## Key Insights
+- Top cancellation reasons to understand potential revenue leakage
 
 
 
-1\. Revenue fluctuation is mainly driven by completed order volume.
-
-2\. Revenue is concentrated in key provinces, especially Java-based regions.
-
-3\. Cancellation rate is significant and may indicate potential revenue leakage.
-
-4\. Buyer-related cancellation reasons and order issues are major contributors to cancelled orders.
+## Key Insights
 
 
 
-\## Business Recommendations
+1. Revenue fluctuation is mainly driven by completed order volume.
+
+2. Revenue is concentrated in key provinces, especially Java-based regions.
+
+3. Cancellation rate is significant and may indicate potential revenue leakage.
+
+4. Buyer-related cancellation reasons and order issues are major contributors to cancelled orders.
+
+
+
+## Business Recommendations
 
 
 
@@ -164,19 +164,19 @@ Based on the analysis, the business should:
 
 
 
-\- Prioritize marketing and inventory planning in top-performing provinces.
+- Prioritize marketing and inventory planning in top-performing provinces.
 
-\- Monitor monthly completed orders closely because order volume has a strong relationship with revenue movement.
+- Monitor monthly completed orders closely because order volume has a strong relationship with revenue movement.
 
-\- Improve order confirmation and checkout clarity to reduce buyer-related cancellations.
+- Improve order confirmation and checkout clarity to reduce buyer-related cancellations.
 
-\- Investigate cancellation reasons related to existing order issues and system auto-cancellations.
+- Investigate cancellation reasons related to existing order issues and system auto-cancellations.
 
-\- Track cancellation rate regularly as an operational risk metric.
+- Track cancellation rate regularly as an operational risk metric.
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -208,7 +208,7 @@ indonesia-ecommerce-revenue-analysis/
 
 │
 
-├── powerbi/
+├── dashboard/
 
 │   ├── ecommerce\_revenue\_dashboard.pbix
 
