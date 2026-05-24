@@ -2,7 +2,7 @@
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,7 +14,7 @@ The objective of this project is to identify key revenue drivers, understand mon
 
 
 
-\## Business Problem
+## Business Problem
 
 
 
@@ -26,17 +26,17 @@ Key business concerns include:
 
 
 
-\- Monthly revenue fluctuation
+- Monthly revenue fluctuation
 
-\- Dependence on completed order volume
+- Dependence on completed order volume
 
-\- Average order value performance
+- Average order value performance
 
-\- Regional revenue concentration
+- Regional revenue concentration
 
-\- Order cancellation behavior
+- Order cancellation behavior
 
-\- Potential revenue leakage from cancelled orders
+- Potential revenue leakage from cancelled orders
 
 
 
